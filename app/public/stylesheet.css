@@ -1,0 +1,44 @@
+@font-face { font-family: Delicious; src: url('sr_hand.otf'); }
+ @font-face { font-family: Delicious; font-weight: bold; src: url('sr_hand.otf');}
+
+@font-face { font-family: sr_hand; src: url('sr_hand.otf'); }
+h1 {
+font-family: sr_hand}
+@font-face { font-family: sr_hand_lite; src: url('sr_hand_lite.otf'); }
+h2 {
+font-family: sr_hand_lite
+}
+#intro_text {
+	width: 38%;
+	margin: 0 auto;
+	font-size: 120%;
+}
+#robot {
+	width: 100px;
+	margin: 100px auto 0 auto;
+}
+a	{
+	text-decoration: none;
+}
+#footer	{
+	width: 30px;
+	display: block;
+	margin: 0 auto;
+	font-size: 50%;
+}
+#art {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+#barn {
+	margin: 150px auto 0 auto;
+}
+/* visited link */
+a:visited {
+    color: #088A29;
+}
+/* unvisited link */
+a:link {
+    color: #04B404;
+}
